@@ -1,0 +1,10 @@
+{
+ "name": "Vue-design-blocks",
+ "version": "0.0.4",
+ "description": "Vue Design Blocks. Including Express setup for Heroku",
+ "author": "Yaro Schiffelers",
+ "private": true,
+ "scripts": {
+   "postinstall": "npm install express"
+ }
+}
