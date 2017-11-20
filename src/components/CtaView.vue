@@ -37,6 +37,9 @@
 
     <h3 class="idheader">12</h3>
     <cta12></cta12>
+
+    <h3 class="idheader">22</h3>
+    <cta22></cta22>
   </div>
 </template>
 
@@ -53,6 +56,7 @@ import cta9 from '../design-block-components/cta/Cta9'
 import cta10 from '../design-block-components/cta/Cta10'
 import cta11 from '../design-block-components/cta/Cta11'
 import cta12 from '../design-block-components/cta/Cta12'
+import cta22 from '../design-block-components/cta/Cta22'
 
 export default {
   name: 'ctaview',
@@ -69,6 +73,7 @@ export default {
     'Cta10': cta10,
     'Cta11': cta11,
     'Cta12': cta12,
+    'Cta22': cta22,
   }
 }
 </script>
