@@ -1,7 +1,7 @@
 <template>
   <div class="layout1">
     <h1>Layout 1</h1>
-    <h2>Design-blocks</h2>
+    <h2>Testing binding data to JSON config file</h2>
     
     <!-- INFO BLOCKS -->
     <section class="fdb-block pb-0">
@@ -9,14 +9,15 @@
         <div class="row text-left">
           <div class="col-12 col-md-8 col-lg-8">
             <div class="fdb-box fdb-touch br-0">
-              <h2><strong>Design Blocks</strong></h2>
+              <h2><strong>Hello</strong></h2>
               <p class="text-h3">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics</p>
               <p class="text-h3 mt-4"><a href="#">Read More</a></p>
+              <!-- v-bind:href="configdata.url" -->
             </div>
           </div>
           <div class="col-12 col-md-4 col-lg-4">
             <div class="fdb-box fdb-touch br-0">
-              <h2><strong>Design Blocks</strong></h2>
+              <h2><strong><!-- {{ configdata.name }} --></strong></h2>
               <p class="text-h3">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics</p>
             </div>
           </div>
