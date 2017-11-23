@@ -1,0 +1,11 @@
+{
+  "configdata": {
+    "name": "Yaro Schiffelers",
+    "ulr": "http://www.github.com/yaroschiffelers",
+    "street": "Streetname 12",
+    "postalcode": "10234 AB",
+    "city": "Amsterdam",
+    "email": "hello@somemail.com",
+    "phonenumber": "06-88994455"
+  }
+}
