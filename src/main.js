@@ -18,9 +18,9 @@ import 'froala-design-blocks/dist/css/froala_blocks.css'
 Vue.use(BootstrapVue)
 
 // Register your Vue components
-Vue.component('headernavys', require('./components/Headernavys'))
-Vue.component('footerys', require('./components/Footerys'))
-Vue.component('cta1', require('./design-block-components/cta/Cta1'))
+// Vue.component('headernavys', require('./components/Headernavys'))
+// Vue.component('footerys', require('./components/Footerys'))
+// Vue.component('cta1', require('./design-block-components/cta/Cta1'))
 
 Vue.config.productionTip = false
 
