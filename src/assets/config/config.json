@@ -1,11 +1,11 @@
 {
   "configdata": {
-    "name": "LSVb",
-    "ulr": "https://www.lsvb.nl/",
-    "street": "H.Cleyndertweg 21 k5",
-    "postalcode": "1025 DE",
+    "name": "Yaro Schiffelers",
+    "ulr": "http://www.github.com/yaroschiffelers",
+    "street": "Streetname 12",
+    "postalcode": "10234 AB",
     "city": "Amsterdam",
-    "email": "yaro@lsvb.nl",
-    "phonenumber": "06-82353390"
+    "email": "hello@somemail.com",
+    "phonenumber": "06-88994455"
   }
 }
