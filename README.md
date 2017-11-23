@@ -53,9 +53,9 @@ Read the readme.md in the /dist folder
 
 ## Built With
 
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
+* [VueJs](https://vuejs.org/) - The javascript framework used for this project
+* [Bootstrap](https://v4-alpha.getbootstrap.com/) - The most popular HTML and CSS framework on the web
+* [Froala-design-blocks](https://www.froala.com/design-blocks) -  Awesome building blocks for beautiful websites
 
 ## Contributing
 
