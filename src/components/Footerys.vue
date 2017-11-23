@@ -5,17 +5,17 @@
         <div class="container">
           <div class="row align-items-top text-center text-md-left">
             <div class="col-12 col-sm-6 col-md-4">
-              <h3><strong>Country A</strong></h3>
-              <p>Street Address 52<br>Contact Name</p>
-              <p>+44 827 312 5002</p>
-              <p><a href="#">countrya@amazing.com</a></p>
+              <h3><strong>{{ config.configdata.city }}</strong></h3>
+              <p>{{ config.configdata.street }}<br>{{ config.configdata.name }}</p>
+              <p>{{ config.configdata.phonenumber }}</p>
+              <p><a href="#">{{ config.configdata.email }}</a></p>
             </div>
 
             <div class="col-12 col-sm-6 col-md-4 mt-4 mt-sm-0">
-              <h3><strong>Country B</strong></h3>
-              <p>Street Address 100<br>Contact Name</p>
-              <p>+13 827 312 5002</p>
-              <p><a href="#">countryb@amazing.com</a></p>
+              <h3><strong>{{ config.configdata.city }}</strong></h3>
+              <p>{{ config.configdata.street }}<br>{{ config.configdata.name }}</p>
+              <p>{{ config.configdata.phonenumber }}</p>
+              <p><a href="#">{{ config.configdata.email }}</a></p>
             </div>
 
             <div class="col-12 col-md-4 mt-5 mt-md-0 text-md-left">
@@ -67,8 +67,17 @@
 </template>
 
 <script>
+// Import the json configfile 
+// use: {{ config.configdata.ITEM }}
+import config from '../assets/config/config.json'
+
 export default {
-  name: 'footerys'
+  name: 'footerys',
+  data: function() {
+    return {
+      config
+    };
+  }
 }
 </script>
 

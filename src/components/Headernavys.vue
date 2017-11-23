@@ -7,8 +7,8 @@
         </router-link>
       </b-nav-item>
       <b-nav-item>
-        <router-link to="/layout1">
-          Layout 1
+        <router-link to="/jsonbind">
+          Json-bind
         </router-link>
       </b-nav-item>
       <b-nav-item>
@@ -16,8 +16,10 @@
           Call-to-action
         </router-link>
       </b-nav-item>
-      <b-nav-item disabled>
-        Layout 3
+      <b-nav-item>
+        <router-link to="/databind">
+          Data-bind
+        </router-link>
       </b-nav-item>
     </b-nav>
   </div>
