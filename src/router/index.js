@@ -5,6 +5,7 @@ import Router from 'vue-router'
 import Home from '@/components/Home'
 import Jsonbind from '@/components/Jsonbind'
 import CtaView from '@/components/CtaView'
+import ContentView from '@/components/ContentView'
 import Databind from '@/components/Databind'
 
 
@@ -27,6 +28,11 @@ export default new Router({
       path: '/ctaview',
       name: 'CtaView',
       component: CtaView
+    },
+    {
+      path: '/contentview',
+      name: 'ContentView',
+      component: ContentView
     },
     {
       path: '/databind',

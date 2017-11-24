@@ -17,6 +17,11 @@
         </router-link>
       </b-nav-item>
       <b-nav-item>
+        <router-link to="/contentview">
+          Content
+        </router-link>
+      </b-nav-item>
+      <b-nav-item>
         <router-link to="/databind">
           Data-bind
         </router-link>
