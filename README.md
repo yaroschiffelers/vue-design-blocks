@@ -1,17 +1,15 @@
+# Vue Design BLocks
+
 [![MIT](https://img.shields.io/npm/l/express.svg)](https://github.com/yaroschiffelers/vue-design-blocks/blob/master/LICENSE)
 [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
-
-# Vue Design BLocks
 
 > Froala Design Blocks as Vue Components
 
 All of the magnificent Froala Design Blocks rebuild as ready-to-use Vue components. Easy and fast prototyping. 
 
-
 ### Prerequisites
 
 You'll need Node and Yarn.
-
 
 ### Getting Up and Running
 
@@ -67,8 +65,6 @@ npm test
 
 After the components are build, they will - for your convenience - be automatically imported as global Vue components. This way, all components are available everywhere within your Vue app, without you having to import them manually one-by-one. 
 
-This... see: globals.js for the rest of the explanation.
-
 ## Built With
 
 * [Froala-design-blocks](https://www.froala.com/design-blocks) -  Awesome building blocks for beautiful websites
@@ -81,7 +77,7 @@ Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduc
 
 ## Versioning
 
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/yaroschiffelers/Git-boilerplate/tags). 
+We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/yaroschiffelers/vue-design-blocks/tags). 
 
 ## Authors
 
