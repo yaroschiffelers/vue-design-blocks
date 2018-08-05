@@ -4,6 +4,9 @@ import Vue from 'vue'
 import App from './App'
 import router from './router'
 
+// Uncomment the line below this to automatically import all design block components.
+// import './globals' 
+
 import 'bootstrap/dist/css/bootstrap.css'
 import 'froala-design-blocks/dist/css/froala_blocks.css'
 

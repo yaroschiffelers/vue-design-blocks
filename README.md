@@ -65,6 +65,30 @@ npm test
 
 After the components are build, they will - for your convenience - be automatically imported as global Vue components. This way, all components are available everywhere within your Vue app, without you having to import them manually one-by-one. 
 
+## Register Components Globally (BETA)
+
+For your convenience I added the ```globals.js``` file. This file will automatically import and register all design block components as global Vue components. This way you don't need to import every component by hand. Which makes it easier to get a prototype up and running in no time.  
+
+### Warning 
+
+This still throws errors because of wrong src paths in some components. You can fix this by hand, just change the paths to 'scr/assets/vendor/froala'. 
+
+A fix for this bug is being worked on. 
+
+### Activating
+
+If you want to make use of this functionality, go to ```main.js``` and uncomment the following line: 
+
+```javascript
+// import './globals' 
+``` 
+
+After uncommenting just start your application the way you normally would 
+
+```bash
+yarn dev
+``` 
+
 ## Built With
 
 * [Froala-design-blocks](https://www.froala.com/design-blocks) -  Awesome building blocks for beautiful websites

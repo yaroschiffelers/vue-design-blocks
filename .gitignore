@@ -61,6 +61,7 @@ Temporary Items
 
 # Don't include build desing block components.
 /src/components/designblocks/**
+/src/assets/vendor/froala/**
 
 # Etc
 CHANGELOG.template.md

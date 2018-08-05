@@ -13,6 +13,7 @@
 'use strict'
 
 const fs = require('fs')
+const fse = require('fs-extra')
 const cheerio = require('cheerio')
 const upperFirst = require('lodash/upperFirst')
 const camelCase = require('lodash/camelCase')
@@ -145,6 +146,15 @@ fs.readdirSync('./node_modules/froala-design-blocks/src/html').forEach(file => {
                   .replace(/.html/g, '') // Remove .html
           )
 })
+
+/**
+ * Copy the content of the Froala assets folder to our
+ * own assets folder.
+ */
+fse
+    .copy('./node_modules/froala-design-blocks/src/imgs', 'src/assets/vendor/froala')
+    .then(() => console.log('success: Froala assets copied to the asset folder of this project.'))
+    .catch(err => console.error(err))
 
 /**
  * Create the root directory of the design block components.
