@@ -1,4 +1,4 @@
-# Vue Design BLocks
+# Vue Design Blocks
 
 [![MIT](https://img.shields.io/npm/l/express.svg)](https://github.com/yaroschiffelers/vue-design-blocks/blob/master/LICENSE)
 [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
@@ -61,19 +61,15 @@ npm run e2e
 npm test
 ```
 
-## Deployment
-
-After the components are build, they will - for your convenience - be automatically imported as global Vue components. This way, all components are available everywhere within your Vue app, without you having to import them manually one-by-one. 
-
 ## Register Components Globally (BETA)
 
-For your convenience I added the ```globals.js``` file. This file will automatically import and register all design block components as global Vue components. This way you don't need to import every component by hand. Which makes it easier to get a prototype up and running in no time.  
+For your convenience I added the ```globals.js``` file. This file will automatically import and register all design block components as global Vue components. This way you don't need to import every component by hand. Which makes it easy to get a prototype up and running in no time. 
 
 ### Warning 
 
 This still throws errors because of wrong src paths in some components. You can fix this by hand, just change the paths to 'scr/assets/vendor/froala'. 
 
-A fix for this bug is being worked on. 
+A fix for this bug is still a WIP. 
 
 ### Activating
 
@@ -83,7 +79,7 @@ If you want to make use of this functionality, go to ```main.js``` and uncomment
 // import './globals' 
 ``` 
 
-After uncommenting just start your application the way you normally would 
+After uncommenting just start your application the way you normally would:
 
 ```bash
 yarn dev
