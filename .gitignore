@@ -1,18 +1,61 @@
-.DS_Store
-node_modules/
-dist/
+# Various Node ignoramuses.
+logs
+*.log
 npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-test/unit/coverage
-test/e2e/reports
-selenium-debug.log
-.sass-cache/
+pids
+*.pid
+*.seed
+lib-cov
+coverage
+.grunt
+.lock-wscript
+build/Release
+node_modules
+jspm_modules
+.npm
+.node_repl_history
 
-# Editor directories and files
-.idea
-*.suo
-*.ntvs*
-*.njsproj
-*.sln
+# Various Windows ignoramuses.
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msm
+*.msp
+*.lnk
+
+# Various OSX ignoramuses.
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# Various Linux ignoramuses.
+.fuse_hidden*
+.directory
+.Trash-*
+
+# Ignore all files in 'graveyard' except files in the 'public' sub-directory.
+/graveyard/**
+!/graveyard/public
+!/graveyard/README.md**
+
+# Ignore all files in 'idea' except files in the 'public' sub-directory.
+/idea/**
+!/idea/public
+!/graveyard/README.md**
 
