@@ -1,32 +1,21 @@
 <template>
   <div id="app">
-    <headernavys></headernavys>
-    <router-view></router-view>
-    <footerys></footerys>
+    <router-view/>
   </div>
 </template>
 
 <script>
-import headernavys from './components/Headernavys'
-import footerys from './components/Footerys'
-
 export default {
-  name: 'app',
-  components: {
-    'Headernavys': headernavys,
-    'Footerys': footerys,
-  }
+  name: 'App'
 }
 </script>
 
 <style>
 #app {
+  font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
+  color: #2c3e50;
 }
-
-.fdb-block {
-      border-bottom: solid 1px #EEE;
-    }
 </style>
