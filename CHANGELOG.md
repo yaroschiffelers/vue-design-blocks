@@ -10,6 +10,14 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 - Imported vendor assets. 
 - Demo pages.
 
+## [1.0.1] - 2017-08-04
+### Changed 
+- README.md (typos, links).
+- .gitignore (exclude CHANGELOG.template.md from commits)
+
+### Removed 
+- CHANGELOG.template.md  
+
 ## [1.0.0] - 2017-08-04
 ### Added 
 - builder.js 

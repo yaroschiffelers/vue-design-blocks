@@ -59,3 +59,8 @@ Temporary Items
 !/idea/public
 !/graveyard/README.md**
 
+# Don't include build desing block components.
+/src/components/designblocks/**
+
+# Etc
+CHANGELOG.template.md
